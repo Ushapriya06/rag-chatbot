@@ -7,8 +7,10 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 import os
 
+from dotenv import load_dotenv
+import os
 load_dotenv()
-GOOGLE_API_KEY = 'AQ.Ab8RN6KcZqsbkysYCBY--VI3k2OUbBjVUPem6W-xjum9plWbtQ'
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 def get_pdf_text(pdf_file):
     text = ""
