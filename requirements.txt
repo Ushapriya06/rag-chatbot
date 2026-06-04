@@ -8,3 +8,6 @@ faiss-cpu
 PyPDF2
 python-dotenv
 sentence-transformers
+python-docx
+pandas
+fpdf2
